@@ -15,7 +15,12 @@ const soma = (a, b) => {
 console.log(soma(2, 2));
 
 // Arrow function com return implicito
-
 const subtracao = (a, b) => a - b;
 
 console.log(subtracao(2,2));
+
+
+// Arrow function com um parâmetro
+const imprimirNew = a => console.log(a);
+
+imprimirNew('Claudio');
